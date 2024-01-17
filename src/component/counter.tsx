@@ -1,7 +1,12 @@
 import React from "react";
-import { increment, decrement, configNumber, reset } from "../counter/slice";
+import {
+  increment,
+  decrement,
+  configNumber,
+  reset,
+} from "../redux-config/counter";
 import { useState } from "react";
-import { useAppSelector, useAppDispatch } from "../hook";
+import { useAppSelector, useAppDispatch } from "../redux-config/hook";
 import Button from "@mui/material/Button";
 import { Box, Paper } from "@mui/material";
 const Counter = () => {
